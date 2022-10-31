@@ -1,0 +1,39 @@
+[
+  {
+    "_comment" : "overall target",
+    "pmp": 0.3,
+    "breakeven" : 0.3
+  },
+  {
+      "_comment" : "reach from keword",
+      "impression":10,
+      "clicks" : 11,
+      "ctr" : 0.04,
+      "spend" : " ",
+      "sales" : " ",
+      "orders" : " ",
+      "units" : " ",
+      "cr" : [0.04,0.5],
+      "acos": 
+        {
+           "match_type": {"broad": 0.75, "exact": 0.3}  
+        },
+      "roas" : [4,8] 
+  },
+  {
+      "_comment" : "reach from metrics of campaign",
+      "impression":[10,100],
+      "clicks" : 11,
+      "ctr" : [0.015,0.06],
+      "spend" : " ",
+      "sales" : " ",
+      "orders" : " ",
+      "units" : " ",
+      "cr" : [0.04,0.5],
+      "acos": 
+        {
+           "match_type": {"broad": 75, "exact": 30}  
+        },
+      "roas" : [4,8] 
+  }
+]
