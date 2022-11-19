@@ -8,7 +8,7 @@ threading.stack_size(2**27)  # new thread will get stack of such size
 
 def Read_file(file_path,queue):
     if len(file_path) < 1:
-        wb = Workbook("7days.xlsx") #initialize   workbook class
+        wb = Workbook("sheet/7days.xlsx") #initialize   workbook class
     else:
         wb = Workbook(file_path) #initialize   workbook class    
     ws = wb.sheets['Sponsored Products Campaigns'] #initialize sheet class
